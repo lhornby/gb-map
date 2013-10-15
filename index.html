@@ -125,6 +125,20 @@ margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-botto
       .footer a { 
         color: #ccccff;
       }
+      
+      .feature-button a{
+        background:url('../images/feature-button-icon.png') no-repeat right center;
+        padding-right:50px;
+        min-height:39px;
+        display:inline-block;
+        padding-top:9px;
+        transition: all 300ms ease-out; /*safari and chrome */
+        -webkit-transition: all 300ms ease-out; /*safari and chrome */
+      }
+
+      .feature-button a:hover{
+         background:url('../images/feature-button-icon-hover.png') no-repeat right center;
+      }
     </style>
   </head>
   <body>
@@ -181,16 +195,25 @@ margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-botto
 	<h3>Networking</h3>
 	<!--<img class="img-polaroid" src="http://placehold.it/200x200">-->
 	<p>Getting indivuduals together to collaborate and cooperate on similar and complementary growing projects</p>
+	<div class="feature-button">
+	  <a href="">Read More</a>
+	</div>
       </div>
       <div class="span4">
 	<h3>Mapping</h3>
 	<p>Leading the way in Opensource mapping. Data and presentatation</p>
+	<div class="feature-button">
+	  <a href="">Read More</a>
+	</div>
       </div>
       <div class="span4">
 	<h3>Creating</h3>
 	<p>
 	We are building our own creative ecology of growing projects in Bradford. The secrets of our successes and failures, we want to share.
 	</p> 
+        <div class="feature-button">   	
+	  <a href="">Read More</a>
+        </div>
       </div>	
     </div>
       <!-- We define a new 'actions' div to contain statistics, order, and share buttons.
